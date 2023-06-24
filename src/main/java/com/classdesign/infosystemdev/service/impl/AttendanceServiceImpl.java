@@ -99,12 +99,12 @@ public class AttendanceServiceImpl extends ServiceImpl<AttendanceMapper, Attenda
         return Response.error();
     }
 
-    public ResponseDTO list(Integer current,Integer size,String name,Integer deptId,String month){
+    /*public ResponseDTO list(Integer current,Integer size,String name,Integer deptId,String month){
         IPage<StaffAttendanceVO> config=new Page<>(current,size);//第一个参数表示页码数，第二个表示每页多少条数据
         //解决搜索条件未空时，默认查询所有数据
         if(name == null){
             name="";
         }
         IPage<StaffAttendanceVO> page;
-    }
+    }*/
 }
